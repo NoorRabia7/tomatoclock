@@ -494,7 +494,7 @@ async function speak(userPrompt, showThinking = true) {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "zai-org/GLM-4.6",
+        model: "deepseek-ai/DeepSeek-V3.2-Exp",
         messages: [
           { role: "system", content: personality + "\n" + context },
           { role: "user", content: userPrompt }
